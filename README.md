@@ -5,17 +5,17 @@ Windows use XAMPP<br>
 Android use TERMUX<br>
 
 # Contoh Spotify Create (Result tersimpan di spotify.txt)
-Email : Terserahsob (gak usah pake @gmail udh otomatis)<br>
-Password : login (masukin password sob)<br>
-Jumlah : 696969 (masukin jumlah mau brp sob)<br>
+Email : (@koreymail.com)<br>
+Password : (masukin password)<br>
+Jumlah : (masukin jumlah)<br>
 
 
 # Install
   
 	$ pkg install git
 	$ pkg install php
-	$ git clone https://github.com/dzgif/spotifycreator-gmail.git
-	$ cd spotifycreator-gmail
+	$ git clone https://github.com/kokorey/v1.git
+	$ cd v1
 
 # Run
 

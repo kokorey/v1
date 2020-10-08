@@ -4,7 +4,7 @@ error_reporting(0);
 date_default_timezone_set('Asia/Jakarta');
 echo "===============================================\n";
 echo "           Spotify Account Creator  \n"; 
-echo "               Github : Kokorey    	\n";
+echo "            Domain @koreymail.com    	\n";
 echo "================================================\n";
 echo "[+] Email : ";
 $mail = trim(fgets(STDIN));
@@ -47,7 +47,7 @@ if ($json->status == "20") {
 }else {
 	if ($json->status == 1) {
 		$date = date("D-M-Y h:i:s");
-		echo "[-] Email: $email Pass: $pass => success \n";
+		echo "[-] Success \nEmail: $email \nPass: $pass \n";
 		fwrite(fopen("spotify.txt", "a"), "$email|$pass\n");
 	}
 }
